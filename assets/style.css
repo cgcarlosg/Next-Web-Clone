@@ -188,5 +188,21 @@ a {
 }
 
 .p5-photo-article a {
-    color: gray;
-  }
+  color: gray;
+}
+
+.more-info {
+  width: 50%;
+  height: auto;
+}
+
+.more-info ul {
+  margin: 0;
+  padding: 0;
+}
+
+.more-info li {
+list-style: none;
+margin: 0;
+padding: 0;
+}
