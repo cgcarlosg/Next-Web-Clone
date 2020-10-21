@@ -2,7 +2,7 @@
 This is a clone of https://thenextweb.com/ done as a project for Microverse
 
 
-![screenshot]()
+![screenshot](https://github.com/cgcarlosg/Next-Web-Clone/blob/feature/assets/1st-screenshot.png)
 
 
 ## Built With
