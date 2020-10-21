@@ -13,7 +13,7 @@ This is a clone of https://thenextweb.com/ done as a project for Microverse
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://cgcarlosg.github.io/Next-Web-Clone/.)
 
 
 ## Getting Started
