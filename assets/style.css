@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: flex;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.logo-container {
+  width: 100px;
+  height: 60px;
+  min-width: 100px;
+  display: flex;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.input-nav {
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  border-style: none;
+  width: 70%;
+}
+
+.in-loupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-left: rgb(211, 203, 203) solid 1px;
+  border-right: rgb(211, 203, 203) solid 1px;
+}
+
+.loupe {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu {
+  grid-column: 12/13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-menu {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.bored {
+  max-width: 100%;
+  height: 170px;
+  background-image: url(./img-bored-at-home.png);
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.text-photo {
+  margin-top: 10%;
+  position: absolute;
+  width: 100%;
+  height: 100px;    
+}
+
+.p1-photo {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  margin-left: 10px;
+  position: absolute;
+  padding-top: 10px;
+}
+
+.p2-photo {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+  margin-left: 10px;
+  position: absolute;
+  padding-top: 25px;
+}
+
+.p3-photo {
+  padding-top: 75px;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  margin-left: 10px;
+  position: absolute;
+  width: 95%;
+}
+
+.watch {
+  max-width: 100%;
+  height: 170px;
+  background-image: url(./img-watch-all.png);
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.how {
+  max-width: 100%;
+  height: 170px;
+  background-image: url(./img-how-photoshop.png);
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+}
+
+.article-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.article-div-img {
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.size-photos-articles {
+  width: 90px;
+  height: 80px;
+}
+
+.p4-photo-article {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 25px;
+}
+
+.p4-photo-article a {
+  color: black;
+  font-weight: bolder;
+}
+
+.p5-photo-article {
+  padding: 0;
+  color: gray;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.p5-photo-article a {
+    color: gray;
+  }
