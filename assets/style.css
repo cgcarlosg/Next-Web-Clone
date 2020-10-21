@@ -8,6 +8,11 @@
   margin: 0;
   padding: 0;
   position: relative;
+  width: 100%;
+}
+
+.menu-top {
+  display: none;
 }
 
 .logo-container {
@@ -21,6 +26,10 @@
   height: 60px;
   width: 100px;
   cursor: pointer;
+}
+
+.li-first-breakpoint {
+  display: none;
 }
 
 .input-nav {
@@ -39,6 +48,7 @@
   height: 60px;
   border-left: rgb(211, 203, 203) solid 1px;
   border-right: rgb(211, 203, 203) solid 1px;
+  margin-right: 0;
 }
 
 .loupe {
@@ -48,7 +58,6 @@
 }
 
 .menu {
-  grid-column: 12/13;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +67,143 @@
   width: 45px;
   height: 45px;
   cursor: pointer;
+}
+
+@media (min-width:768px) {
+
+.morelogo {
+  width: 100px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-top {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  white-space: nowrap;
+}
+
+.menu-top ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.menu-top a {
+  color: darkgray;
+  font-size: 14px;
+}
+
+.menu-top a:hover {
+  color: white;
+}
+
+.firstmenu {
+  margin-left: 100px;
+}
+
+.secondmenu {
+  margin-right: 10px;
+}
+
+.li-first-breakpoint {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#news {
+  color: white;
+}
+
+.li-first-breakpoint ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.li-first-breakpoint ul li {
+  text-decoration: none;
+}
+
+.li-first-breakpoint a {
+  color: lightgray;
+}
+
+.li-first-breakpoint a:hover {
+  color: black;
+}
+
+#break1214 {
+  display: none;
+}
+
+.input-nav {
+  width: 50%;
+}
+
+.in-loupe {
+  width: 120px;
+  margin-right: 0;
+}
+
+.menu {
+  display: none;
+}
+
+}
+
+@media (min-width:1214px) {
+
+.logo-container {
+  display: none;
+}
+
+.firstmenu {
+  margin-left: 0;
+}
+
+.li-first-breakpoint {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.li-first-breakpoint ul {
+  margin: 0;
+  padding: 0;
+}
+
+#break1214 {
+  display: flex;
+}
+
+.input-nav {
+  width: 50%;
+}
+
+.in-loupe {
+  width: 50px;
+  margin-right: 0;
+}
+
+.menu {
+  display: none;
+}
+
 }
 
 .main-container {
