@@ -225,6 +225,10 @@
   position: relative;
 }
 
+.containbiglogo {
+  display: none;
+}
+
 .bored {
   max-width: 100%;
   height: 170px;
@@ -362,6 +366,8 @@ a {
   padding: 0;
 }
 
+/* CENTRAL MMESSAGE */
+
 .central-message {
   display: flex;
   flex-direction: column;
@@ -395,8 +401,106 @@ a {
 }
 
 .pipes {
-  color: red;
   display: none;
+}
+
+/* FIRST BREAKPOINT FIRST BIG ARTICLE */
+
+.three-red-pict {
+  grid-template-columns: repeat (1, 1fr);
+}
+
+.first-red-pict {
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.second-red-pict {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.third-red-pict {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.fourth-red-pict {
+  display:  none;
+}
+
+.flaticon-etiqueta-de-tienda-negra {
+  color: black;
+}
+
+.flaticon-cartera {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.lineimg {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.firstline {
+  width: 100%;
+  background-color: #ff4422;
+  padding-top: 10px;
+  padding-left: 70px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.firstline a {
+  color: white;
+}
+
+.secondline {
+  width: 100%;
+  background-color: #ffebe7;
+  padding-top: 10px;
+  padding-left: 80px;
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.secondline h5 {
+  padding: 0;
+  margin: 0;
+  color: gray;
+}
+
+.fifthline {
+  padding-top: 10px;
+  padding-left: 5px;
+  border-top: #ff4422 solid 1px;
+}
+
+.fifthline a {
+  color: darkgray;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+#secondfiftha {
+  color: gray;
+}
+
+#secondfifthb {
+  color: gray;
+}
+
+#secondfifthc {
+  color: gray;
 }
 
 /* FIRST BREAKPOINT FIRST BIG ARTICLE */
@@ -549,28 +653,72 @@ a {
     margin-left: 0;
   }
 
+/* FIRST BREAKPOINT CENTRAL MESSAGE */
+
   .central-message {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-top: 50px;
+    align-content: center;
   }
 
   .red-titles {
     width: 100%;
-    background-color: cadetblue;
+    height: 50px;
   }
 
-  .red-titles ul {
-    padding: 0;
+  .red-titles h1 {
     margin: 0;
+    padding: 0;
   }
 
   .more-info {
     width: 100%;
     height: 50px;
+    padding-right:0;
+    margin-right: 0;
     display: flex;
-    flex-direction: row;
-    background-color: coral;
+    align-content: center;
+  }
+
+  .pipes {
+    display: flex;
+    color: red;
+  }
+
+  .more-info ul {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .more-info ul li {
+    padding-right: 10px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+  }
+
+/* FIRST BREAKPOINT THREE RED PICT*/
+
+  .three-red-pict {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+  }
+
+  .first-red-pict {
+    grid-column: 1/2;
+  }
+
+  .second-red-pict {
+    grid-column: 2/3;
+  }
+
+  .third-red-pict {
+    grid-column: 3/4;
   }
 }
 
@@ -608,34 +756,35 @@ a {
   }
 
   .biggest {
-    margin-top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
     width: 50%;
   }
 
   .date {
     width: 45%;
     margin-top: 0;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 10px;
     color: white;
     text-align: right;
   }
 
   .p1-photo {
-    margin-top: 120px;
+    margin-top: 140px;
     margin-bottom: 20px;
     width: 95%;
   }
 
   .p2-photo {
-    margin-top: 150px;
+    margin-top: 170px;
     margin-bottom: 30px;
     font-size: 30px;
     width: 95%;
   }
 
   .p3-photo {
-    margin-top: 240px;
+    margin-top: 260px;
     margin-bottom: 20px;
     font-size: 12px;
     width: 95%;
@@ -666,10 +815,12 @@ a {
     width: 95%;
   }
 
+  /* SECOND BREAKPOINT SECOND BIG ARTICLE */
+
   .container-second-big-art {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 5px;
     width: 100%;
   }
@@ -705,4 +856,79 @@ a {
   #col8 {
     grid-column: 4/5;
   }
+
+/* SECOND BREAKPOINT CENTRAL MESSAGE */
+  
+  .central-message {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-content: center;
+  }
+
+  .red-titles {
+    width: 50%;
+  }
+
+  .red-titles h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .more-info {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:0;
+    margin-right: 0;
+  }
+
+  .pipes {
+    display: flex;
+    color: red;
+  }
+
+  .more-info ul {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+  }
+
+  .more-info ul li {
+    padding-left: 10px;
+    padding-right: 0px;
+    text-align: right;
+  }
+
+  /* SECOND BREAKPOINT THREE RED PICT*/
+  
+  .three-red-pict {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+  }
+
+  .first-red-pict {
+    grid-column: 1/2;
+  }
+
+  .second-red-pict {
+    grid-column: 2/3;
+  }
+
+  .third-red-pict {
+    grid-column: 3/4;
+  }
+
+  .fourth-red-pict {
+    margin-top: 10px;
+    display: grid;
+    grid-column: 4/5;
+  }
+
+  #secondfifthd {
+    color: gray;
+  }
+
 }
