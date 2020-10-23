@@ -464,30 +464,29 @@ h1 {
 }
 
 .second-red-pict {
-  margin-top: 10px;
   width: 100%;
+  margin-top: 10px;
   padding-bottom: 20px;
   position: relative;
 }
 
 .third-red-pict {
-  margin-top: 10px;
   width: 100%;
+  margin-top: 10px;
   padding-bottom: 20px;
   position: relative;
 }
 
 .fourth-red-pict {
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
   display: none;
 }
 
-.flaticon-etiqueta-de-tienda-negra {
+.lines-with-icons {
   color: black;
-}
-
-.flaticon-cartera {
-  color: black;
-  margin-bottom: 20px;
 }
 
 .lineimg {
@@ -497,6 +496,7 @@ h1 {
 }
 
 .firstline {
+  height: 33px;
   width: 100%;
   background-color: #f42;
   padding-top: 10px;
@@ -525,6 +525,7 @@ h1 {
   padding-top: 10px;
   padding-left: 5px;
   border-top: #f42 solid 1px;
+  margin-top: 10px;
 }
 
 #secondfiftha {
@@ -1371,8 +1372,7 @@ h1 {
   }
 
   .fourth-red-pict {
-    margin-top: 10px;
-    display: grid;
+    display: block;
     grid-column: 4/5;
   }
 
