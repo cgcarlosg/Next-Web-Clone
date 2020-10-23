@@ -249,6 +249,20 @@
   height: 100px;
 }
 
+.other-link a {
+  color: #535353;
+  font-size: 14px;
+}
+
+.other-link a:hover {
+  color: white;
+}
+
+.see-all a {
+  margin: 0;
+  padding: 0;
+}
+
 .p1-photo {
   color: white;
   font-size: 14px;
@@ -271,6 +285,12 @@
   position: absolute;
 }
 
+a {
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+}
+
 .p2-photo a {
   color: white;
   margin-left: 0;
@@ -287,9 +307,48 @@
   position: absolute;
 }
 
+.txt2-photo a {
+  margin-left: 0;
+}
+
 .p3-photo a {
   color: lightgray;
   margin-left: 0;
+}
+
+.firstline a {
+  color: white;
+}
+
+.fifthline a {
+  color: darkgray;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+.more-info a {
+  margin: 0;
+  padding: 0;
+}
+
+.red-titles a {
+  margin: 0;
+  width: 100%;
+}
+
+.p5-photo-article a {
+  color: gray;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.p4-photo-article a {
+  color: black;
+  font-weight: bolder;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
 }
 
 .p3-photo a:hover {
@@ -324,19 +383,15 @@ h1 {
   font-weight: bolder;
 }
 
-a {
-  text-decoration: none;
-  color: red;
-  margin-left: 10px;
-}
-
 .article-container {
   width: 100%;
   height: 100px;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .article-div-img {
+  margin-bottom: 5px;
   width: 100px;
   height: 80px;
   cursor: pointer;
@@ -356,14 +411,6 @@ a {
   margin-left: 10px;
 }
 
-.p4-photo-article a {
-  color: black;
-  font-weight: bolder;
-  justify-content: left;
-  margin: 0;
-  padding: 0;
-}
-
 .p5-photo-article {
   padding: 0;
   color: gray;
@@ -375,23 +422,11 @@ a {
   margin-left: 10px;
 }
 
-.p5-photo-article a {
-  color: gray;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-
 /* CENTRAL MESSAGE */
 
 .central-message {
   display: flex;
   flex-direction: column;
-}
-
-.red-titles a {
-  margin: 0;
-  width: 100%;
 }
 
 .more-info {
@@ -409,11 +444,6 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
-}
-
-.more-info a {
-  margin: 0;
-  padding: 0;
 }
 
 .pipes {
@@ -475,10 +505,6 @@ a {
   font-weight: 500;
 }
 
-.firstline a {
-  color: white;
-}
-
 .secondline {
   width: 100%;
   background-color: #ffebe7;
@@ -501,12 +527,6 @@ a {
   border-top: #f42 solid 1px;
 }
 
-.fifthline a {
-  color: darkgray;
-  font-size: 14px;
-  margin-left: 0;
-}
-
 #secondfiftha {
   color: gray;
 }
@@ -519,25 +539,27 @@ a {
   color: gray;
 }
 
-  /* LAST NINE BIG ARTICLES */
+/* LAST NINE BIG ARTICLES */
 
 .last-articles {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(1, fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .first-last-article {
-  width: 100;
+  width: 100%;
 }
 
 .txt-last-articles-one {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(
+  background-image: 
+    linear-gradient(
     to bottom,
     rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%), url(./bitcoin.jpg);
+    rgb(1, 1, 1) 95%), 
+      url(./bitcoin.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -616,10 +638,6 @@ a {
   margin-bottom: 10px;
 }
 
-.txt2-photo a {
-  margin-left: 0;
-}
-
 .img-next-textdown {
   width: 100px;
   height: 100px;
@@ -658,9 +676,11 @@ a {
 .txt-last-articles-two {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+      linear-gradient(to bottom,
     rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%),  url(./cells-img-down.jpg);
+    rgb(1, 1, 1) 95%),  
+      url(./cells-img-down.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -670,9 +690,11 @@ a {
 .txt-last-articles-three {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./airbnb.png);
+  rgb(1, 1, 1) 95%), 
+    url(./airbnb.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -682,9 +704,11 @@ a {
 .txt-last-articles-fourth {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./img-conference.png);
+  rgb(1, 1, 1) 95%), 
+    url(./img-conference.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -694,9 +718,11 @@ a {
 .txt-last-articles-fifth {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./paint-behind.jpg);
+  rgb(1, 1, 1) 95%),
+    url(./paint-behind.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -706,9 +732,11 @@ a {
 .txt-last-articles-sixth {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./light-office.png);
+  rgb(1, 1, 1) 95%), 
+    url(./light-office.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -718,9 +746,11 @@ a {
 .txt-last-articles-seventh {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./letter.png);
+  rgb(1, 1, 1) 95%), 
+    url(./letter.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -730,9 +760,11 @@ a {
 .txt-last-articles-eight {
   max-width: 100%;
   height: 400px;
-  background-image: linear-gradient(to bottom,
+  background-image: 
+    linear-gradient(to bottom,
   rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./second-conference.jpg);
+  rgb(1, 1, 1) 95%), 
+    url(./second-conference.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -769,19 +801,6 @@ a {
   align-items: center;
 }
 
-.see-all a {
-  margin: 0;
-  padding: 0;
-}
-
-.article-container {
-  margin-bottom: 20px;
-}
-
-.article-div-img {
-  margin-bottom: 5px;
-}
-
 .text-articles a:hover {
   color: #f42;
 }
@@ -804,7 +823,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .top-footer ul {
@@ -822,15 +840,6 @@ a {
   height: 50px;
   border-radius: 50%;
   padding: 10px;
-}
-
-.other-link a {
-  color: #535353;
-  font-size: 14px;
-}
-
-.other-link a:hover {
-  color: white;
 }
 
 .bottom-footer {
@@ -963,35 +972,43 @@ a {
     height: auto;
   }
 
-  #col1 {
+  #col1,
+  #col11 {
     grid-column: 1/2;
   }
 
-  #col2 {
+  #col2,
+  #col12 {
     grid-column: 2/3;
   }
 
-  #col3 {
+  #col3,
+  #col13 {
     grid-column: 3/4;
   }
 
-  #col4 {
+  #col4,
+  #col14 {
     grid-column: 1/2;
   }
 
-  #col5 {
+  #col5,
+  #col15 {
     grid-column: 2/3;
   }
 
-  #col6 {
+  #col6,
+  #col16 {
     grid-column: 3/4;
   }
 
-  #col7 {
+  #col7,
+  #col17 {
     grid-column: 1/2;
   }
 
-  #col8 {
+  #col8,
+  #col18 {
     grid-column: 2/3;
   }
 
@@ -1083,15 +1100,15 @@ a {
   .last-articles {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
-   #fla1,
-   #fla3,
-   #fla5,
-   #fla7,
-   #fla9 {
+
+  #fla1,
+  #fla3,
+  #fla5,
+  #fla7,
+  #fla9 {
     grid-column: 1/2;
   }
 
@@ -1164,10 +1181,11 @@ a {
     background-size: cover;
     display: flex;
     position: relative;
-    background-image: linear-gradient(
-    to bottom right,
-    rgb(255, 0, 0, 0.6) 20%,
-    rgb(50, 0, 0, 1) 90%), url(./img-bored-at-home.png);
+    background-image: 
+        linear-gradient(to bottom right,
+      rgb(255, 0, 0, 0.6) 20%,
+      rgb(50, 0, 0, 1) 90%), 
+        url(./img-bored-at-home.png);
   }
 
   .containbiglogo {
@@ -1249,39 +1267,47 @@ a {
     width: 100%;
   }
 
-  #col1 {
+  #col1,
+  #col11 {
     grid-column: 1/2;
   }
 
-  #col2 {
+  #col2,
+  #col12 {
     grid-column: 2/3;
   }
 
-  #col3 {
+  #col3,
+  #col13 {
     grid-column: 3/4;
   }
 
-  #col4 {
+  #col4,
+  #col14 {
     grid-column: 4/5;
   }
 
-  #col5 {
+  #col5,
+  #col15 {
     grid-column: 1/2;
   }
 
-  #col6 {
+  #col6,
+  #col16 {
     grid-column: 2/3;
   }
 
-  #col7 {
+  #col7,
+  #col17 {
     grid-column: 3/4;
   }
 
-  #col8 {
+  #col8,
+  #col18 {
     grid-column: 4/5;
   }
 
-  /* SECOND BREAKPOINT CENTRAL MESSAGE */
+  /* SEC  OND BREAKPOINT CENTRAL MESSAGE */
 
   .central-message {
     display: flex;
@@ -1359,13 +1385,13 @@ a {
   .last-articles {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  
-   #fla1,
-   #fla4,
-   #fla7 {
+
+     #fla1,
+     #fla4,
+     #fla7 {
     grid-column: 1/2;
   }
 
