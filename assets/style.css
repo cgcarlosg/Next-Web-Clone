@@ -503,6 +503,191 @@ a {
   color: gray;
 }
 
+  /* LAST NINE BIG ARTICLES */
+
+.last-articles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, fr);
+}
+
+.first-last-article {
+  width: 100;
+}
+
+.txt-last-articles-one {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./bitcoin.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#ph1 {
+  position: absolute;
+  margin-top: 250px;
+}
+
+#ph2 {
+  position: absolute;
+  margin-top: 270px;
+}
+
+#ph3 {
+  position: absolute;
+  margin-top: 320px;
+}
+
+.contain-textdown-and-img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+}
+
+.textdown {
+  width: 90%;
+  background-color: #fff4f2;
+}
+
+.txt1-photo {
+  color: #f42;
+  font-size: 13px;
+  font-weight: 300;
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.txt2-photo {
+  color: #f42;
+  font-size: 16px;
+  font-weight: 900;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.img-next-textdown {
+  width: 100px;
+  height: 100px;
+  padding-top: 5px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.first-next-img {
+  width: 100%;
+  height: 100%;
+}
+
+.in-list-art {
+  width: 100%;
+}
+
+.in-list-art ul {
+  color: #333;
+  list-style: none;
+  padding-left: 0;
+}
+
+.in-list-art li {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-bottom: gray solid 1px;
+}
+
+.bullet::before {
+  content: "\2022";
+  color: red;
+  margin-right: 10px;
+}
+
+.txt-last-articles-two {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./cells-img-down.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-three {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./airbnb.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-fourth {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./img-conference.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-fifth {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./paint-behind.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-sixth {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./light-office.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-seventh {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./letter.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-eight {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./second-conference.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.txt-last-articles-nineth {
+  max-width: 100%;
+  height: 400px;
+  background-image: url(./toy.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* FIRST BREAKPOINT FIRST BIG ARTICLE */
 
 @media (min-width: 768px) {
@@ -719,6 +904,31 @@ a {
   .third-red-pict {
     grid-column: 3/4;
   }
+
+  /* FIRST BREAKPOINT LAST NINE BIG ARTICLES */
+
+  .last-articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    gap: 20px;
+  }
+  
+   #fla1,
+   #fla3,
+   #fla5,
+   #fla7,
+   #fla9 {
+    grid-column: 1/2;
+  }
+
+  #fla2,
+  #fla4,
+  #fla6,
+  #fla8 {
+    grid-column: 2/3;
+  }
+
 }
 
 /* SECOND BREAKPOINT FIRST BIG ARTICLE */
@@ -904,7 +1114,6 @@ a {
   .three-red-pict {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1;
     gap: 20px;
   }
 
@@ -929,4 +1138,32 @@ a {
   #secondfifthd {
     color: gray;
   }
+
+  /* SECOND BREAKPOINT LAST NINE BIG ARTICLES */
+
+  .last-articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    gap: 20px;
+  }
+  
+   #fla1,
+   #fla4,
+   #fla7 {
+    grid-column: 1/2;
+  }
+
+  #fla2,
+  #fla5,
+  #fla8 {
+    grid-column: 2/3;
+  }
+
+  #fla3,
+  #fla6,
+  #fla9 {
+    grid-column: 3/4;
+  }
+
 }
