@@ -329,15 +329,15 @@ a {
   padding: 0;
 }
 
-.other-link a:hover {
-  color: white;
-}
-
 .p5-photo-article a {
   color: gray;
   text-align: left;
   margin: 0;
   padding: 0;
+}
+
+.other-link a:hover {
+  color: white;
 }
 
 .p1-photo {
@@ -507,10 +507,12 @@ a {
     display: flex;
     position: relative;
     background-image:
-      linear-gradient(to bottom right,
+      linear-gradient(
+      to bottom right,
       rgb(255, 0, 0, 0.6) 20%,
-      rgb(50, 0, 0, 1) 90%), 
-        url(./img-bored-at-home.png);
+      rgb(50, 0, 0, 1) 90%
+      ),
+      url(./img-bored-at-home.png);
   }
 
   .containbiglogo {
@@ -769,11 +771,12 @@ h1 {
   max-width: 100%;
   height: 400px;
   background-image:
-      linear-gradient(
+    linear-gradient(
       to bottom,
       rgb(255, 255, 255, 0.1),
-      rgb(1, 1, 1) 95%), 
-      url(./bitcoin.jpg);
+      rgb(1, 1, 1) 95%
+      ),
+    url(./bitcoin.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -922,8 +925,8 @@ h1 {
   height: 400px;
   background-image: 
     linear-gradient(to bottom,
-  rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), 
+    rgb(255, 255, 255, 0.1),
+    rgb(1, 1, 1) 95%), 
     url(./img-conference.png);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -950,8 +953,8 @@ h1 {
   height: 400px;
   background-image: 
     linear-gradient(to bottom,
-  rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), 
+    rgb(255, 255, 255, 0.1),
+    rgb(1, 1, 1) 95%), 
     url(./light-office.png);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -992,8 +995,8 @@ h1 {
   height: 400px;
   background-image: 
   linear-gradient(to bottom,
-  rgb(255, 255, 255, 0.1),
-  rgb(1, 1, 1) 95%), url(./toy.jpg);
+    rgb(255, 255, 255, 0.1),
+    rgb(1, 1, 1) 95%), url(./toy.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
