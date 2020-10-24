@@ -898,9 +898,9 @@ h1 {
   background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
-    ), 
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
+    ),
     url(./cells-img-down.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -913,9 +913,9 @@ h1 {
   height: 400px;
   background-image:
     linear-gradient(
-    to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      to bottom,
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./airbnb.png);
   background-position: 0 0;
@@ -930,8 +930,8 @@ h1 {
   background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./img-conference.png);
   background-position: 0 0;
@@ -946,8 +946,8 @@ h1 {
   background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./paint-behind.jpg);
   background-position: 0 0;
@@ -959,11 +959,11 @@ h1 {
 .txt-last-articles-sixth {
   max-width: 100%;
   height: 400px;
-  background-image: 
+  background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./light-office.png);
   background-position: 0 0;
@@ -978,8 +978,8 @@ h1 {
   background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./letter.png);
   background-position: 0 0;
@@ -994,8 +994,8 @@ h1 {
   background-image:
     linear-gradient(
       to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./second-conference.jpg);
   background-position: 0 0;
@@ -1007,11 +1007,11 @@ h1 {
 .txt-last-articles-nineth {
   max-width: 100%;
   height: 400px;
-  background-image: 
-  linear-gradient(
-    to bottom,
-    rgb(255, 255, 255, 0.1),
-    rgb(1, 1, 1) 95%
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgb(255, 255, 255, 0.1),
+      rgb(1, 1, 1) 95%
     ),
     url(./toy.jpg);
   background-position: 0 0;
@@ -1124,10 +1124,9 @@ footer {
   margin-left: 5px;
 }
 
-  /* FIRST BREAKPOINT SECOND BIG ARTICLE */
+/* FIRST BREAKPOINT SECOND BIG ARTICLE */
 
 @media (min-width: 768px) {
-
   .container-second-big-art {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1368,7 +1367,6 @@ footer {
 /* SECOND BREAKPOINT SECOND BIG ARTICLE */
 
 @media (min-width: 1024px) {
-
   .container-second-big-art {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
