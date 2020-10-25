@@ -417,6 +417,14 @@ a {
   padding: 0;
 }
 
+.p2-photo-b a {
+  color: white;
+}
+
+.p3-photo-b a {
+  color: white;
+}
+
 .other-link a:hover {
   color: white;
 }
@@ -879,10 +887,6 @@ h1 {
   position: absolute;
 }
 
-.p2-photo-b a {
- color: white;
-}
-
 .p3-photo-b {
   color: white;
   font-size: 12px;
@@ -893,10 +897,6 @@ h1 {
   margin-bottom: 10px;
   position: absolute;
 }
-
-.p3-photo-b a {
-  color: white;
- }
 
 .contain-textdown-and-img {
   display: flex;
@@ -1248,10 +1248,6 @@ footer {
     grid-column: 3/4;
   }
 
-
-
- 
-
   .p4-photo-article {
     height: 50px;
     margin-left: 0;
@@ -1389,7 +1385,7 @@ footer {
     margin-bottom: 15px;
     position: absolute;
   }
-  
+
   .p2-photo-b {
     color: white;
     font-size: 14px;
@@ -1400,11 +1396,11 @@ footer {
     margin-bottom: 10px;
     position: absolute;
   }
-  
+
   .p2-photo-b a {
-   color: white;
+    color: white;
   }
-  
+
   .p3-photo-b {
     color: white;
     font-size: 12px;
@@ -1415,7 +1411,7 @@ footer {
     margin-bottom: 10px;
     position: absolute;
   }
-  
+
   .p3-photo-b a {
     color: white;
   }
@@ -1582,8 +1578,8 @@ footer {
     margin-bottom: 10px;
     position: absolute;
   }
-  
+
   .p2-photo-b a {
-   color: white;
+    color: white;
   }
 }
