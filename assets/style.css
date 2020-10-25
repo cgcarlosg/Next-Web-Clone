@@ -54,7 +54,6 @@ body {
 
 .li-first-breakpoint {
   display: none;
-  
 }
 
 .li-first-breakpoint ul {
@@ -64,13 +63,12 @@ body {
   padding-left: 0;
 }
 
-.li-first-breakpoint ul li{
+.li-first-breakpoint ul li {
  list-style: none;
- 
 }
 
 .li-first-breakpoint a {
-  color:  white;
+  color: white;
 }
 
 .logos-navbar {
@@ -111,7 +109,6 @@ body {
 /* FIRST BREAKPOINT - RESPONSIVE DESIGN */
 
 @media (min-width: 768px) {
-
   .menu-top {
     width: 100%;
     height: 30px;
@@ -138,6 +135,10 @@ body {
     font-size: 14px;
   }
 
+  .li-first-breakpoint a {
+    color: gray;
+  }
+
   .menu-top a:hover {
     color: white;
   }
@@ -162,7 +163,7 @@ body {
   .main-header {
     background-color: white;
     display: flex;
-    justify-content: flex-star;
+    justify-content: flex-start;
     width: 100%;
   }
 
@@ -170,21 +171,16 @@ body {
     display: flex;
     flex-direction: row;
   }
-  
+
   .li-first-breakpoint ul {
     display: flex;
     flex-direction: row;
     font-size: 12px;
     padding-left: 0;
   }
-  
-  .li-first-breakpoint ul li{
-   list-style: none;
-   
-  }
-  
-  .li-first-breakpoint a {
-    color: gray;
+
+  .li-first-breakpoint ul li {
+    list-style: none;
   }
 
   .li-first-breakpoint a:hover {
@@ -193,7 +189,7 @@ body {
 
   #break1214,
   #break1215 {
-      display: none;
+    display: none;
   }
 
   .menu {
@@ -204,7 +200,6 @@ body {
 /* SECOND BREAKPOINT AND NAV BAR - RESPONSIVE DESIGN */
 
 @media (min-width: 1214px) {
-
   .menu-top {
     width: 100%;
     height: 30px;
