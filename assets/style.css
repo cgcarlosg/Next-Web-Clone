@@ -3,11 +3,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: aqua;
 }
 
 /* HEADER AND NAV BAR - RESPONSIVE DESIGN */
 
 .container-whole-navbar {
+  width: 100vw;
   top: 0;
   left: 0;
   right: 0;
@@ -19,15 +21,22 @@ body {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  width: 100vw;
   height: 50px;
   margin: 0;
   padding: 0;
   position: relative;
-  width: 100%;
 }
 
 .menu-top {
   display: none;
+}
+
+.container-list-logos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-container {
@@ -45,11 +54,29 @@ body {
 
 .li-first-breakpoint {
   display: none;
+  
+}
+
+.li-first-breakpoint ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 7px;
+  padding-left: 0;
+}
+
+.li-first-breakpoint ul li{
+ list-style: none;
+ 
+}
+
+.li-first-breakpoint a {
+  color:  white;
 }
 
 .logos-navbar {
   display: flex;
   flex-direction: row;
+  max-width: 105px;
 }
 
 .in-loupe {
@@ -84,12 +111,99 @@ body {
 /* FIRST BREAKPOINT - RESPONSIVE DESIGN */
 
 @media (min-width: 768px) {
-  .morelogo {
-    width: 100px;
+
+  .menu-top {
+    width: 100%;
     height: 30px;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    white-space: nowrap;
   }
+
+  .menu-top ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 0;
+  }
+
+  .menu-top a {
+    color: dimgray;
+    font-size: 14px;
+  }
+
+  .menu-top a:hover {
+    color: white;
+  }
+
+  .firstmenu {
+    margin-left: 100px;
+  }
+
+  .secondmenu {
+    margin-right: 10px;
+  }
+
+  #news {
+    color: white;
+  }
+
+  .container-list-logos {
+    background-color: violet;
+    width: 100%;
+  }
+
+  .main-header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-star;
+    width: 100%;
+  }
+
+  .li-first-breakpoint {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .li-first-breakpoint ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding-left: 0;
+  }
+  
+  .li-first-breakpoint ul li{
+   list-style: none;
+   
+  }
+  
+  .li-first-breakpoint a {
+    color: gray;
+  }
+
+  .li-first-breakpoint a:hover {
+    color: black;
+  }
+
+  #break1214,
+  #break1215 {
+      display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+/* SECOND BREAKPOINT AND NAV BAR - RESPONSIVE DESIGN */
+
+@media (min-width: 1214px) {
 
   .menu-top {
     width: 100%;
@@ -126,7 +240,7 @@ body {
   }
 
   .firstmenu {
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .secondmenu {
@@ -142,6 +256,10 @@ body {
 
   #news {
     color: white;
+  }
+
+  .logo-container {
+    display: none;
   }
 
   .in-loupe {
@@ -166,60 +284,11 @@ body {
   }
 
   #break1214 {
-    display: none;
+    display: block;
   }
 
   #break1215 {
-    display: none;
-  }
-
-  .input-nav {
-    width: 50%;
-  }
-
-  .menu {
-    display: none;
-  }
-}
-
-/* SECOND BREAKPOINT AND NAV BAR - RESPONSIVE DESIGN */
-
-@media (min-width: 1214px) {
-  .logo-container {
-    display: none;
-  }
-
-  .firstmenu {
-    margin-left: 0;
-  }
-
-  .li-first-breakpoint {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    white-space: nowrap;
-  }
-
-  .li-first-breakpoint ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  #break1214 {
-    display: flex;
-  }
-
-  #break1215 {
-    display: flex;
-  }
-
-  .input-nav {
-    width: 50%;
-  }
-
-  .in-loupe {
-    width: 50px;
-    margin-right: 0;
+    display: block;
   }
 
   .menu {
@@ -234,6 +303,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: coral;
 }
 
 .main-three-art {
