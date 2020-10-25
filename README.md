@@ -24,8 +24,9 @@ Just download the code in your local machine and go to the dowloaded folder, sea
 To run this project, you need a computer or a mobile devise with any operating system and a web browser.
 ### Setup
 To download the project:
-- click on "CODE" (Top-Right bottom)
-- select "Download zip"
+- Select the branch.
+- click on "CODE" (Top-Right green bottom)
+- select "Download ZIP"
 - Save it in your destop folder.
 
 ### Install
