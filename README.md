@@ -23,9 +23,14 @@ Just download the code in your local machine and go to the dowloaded folder, sea
 ### Prerequisites
 To run this project, you need a computer or a mobile devise with any operating system and a web browser.
 ### Setup
-Just download the code.
+To download the project:
+- Select the branch.
+- click on "CODE" (Top-Right green bottom)
+- select "Download ZIP"
+- Save it in your destop folder.
+
 ### Install
-Go to he downloaded folder and search for index.html file and open it in your favorite web browser.
+Go to the downloaded folder and search for index.html file and open it in your favorite web browser.
 ### Usage
 This projects diplays the videos.
 
